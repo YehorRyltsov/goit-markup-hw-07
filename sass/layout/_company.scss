@@ -28,22 +28,23 @@
   border-radius: 4px;
   transition: fill 250ms, border-radius 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    fill: #2196f3;
+    border: 1px solid #2196f3;
+    transition: fill 250ms;
+  }
+  &:focus svg {
+    fill: #2196f3;
+  }
+  &:focus {
+    border: 1px solid #2196f3;
+  }
 }
 .company-list__item {
   width: 170px;
   height: 92px;
 }
-.company-list__link:hover {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
-  transition: fill 250ms;
-}
-.company-list__link:focus svg {
-  fill: #2196f3;
-}
-.company-list__link:focus {
-  border: 1px solid #2196f3;
-}
+
 .company-list__item:not(:last-child) {
   margin-right: 30px;
 }

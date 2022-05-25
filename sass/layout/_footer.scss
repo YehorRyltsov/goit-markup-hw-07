@@ -1,8 +1,8 @@
 .footer {
   background-color: #2f303a;
-}
-.footer .container {
-  display: flex;
+  .container {
+    display: flex;
+  }
 }
 .footer-box {
   padding-top: 60px;
@@ -34,12 +34,12 @@
   color: #ffffff;
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-box-list__map:hover {
-  color: var(--hov-foc);
-}
-.footer-box-list__map:focus {
-  color: var(--hov-foc);
+  &:hover {
+    color: var(--hov-foc);
+  }
+  &:focus {
+    color: var(--hov-foc);
+  }
 }
 .footer-box-list__mail {
   font-style: normal;
@@ -49,12 +49,13 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms;
-}
-.footer-box-list__mail:hover {
-  color: var(--hov-foc);
-}
-.footer-box-list__mail:focus {
-  color: var(--hov-foc);
+
+  &:hover {
+    color: var(--hov-foc);
+  }
+  &:focus {
+    color: var(--hov-foc);
+  }
 }
 .footer-box-list__phone {
   font-style: normal;
@@ -64,12 +65,13 @@
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-box-list__phone:hover {
-  color: var(--hov-foc);
-}
-.footer-box-list__phone:focus {
-  color: var(--hov-foc);
+
+  &:hover {
+    color: var(--hov-foc);
+  }
+  &:focus {
+    color: var(--hov-foc);
+  }
 }
 .footer-social {
   margin-top: 72px;
@@ -103,12 +105,13 @@
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-social-block__link:hover {
-  background-color: #2196f3;
-}
-.footer-social-block__link:focus {
-  background-color: #2196f3;
+
+  &:hover {
+    background-color: #2196f3;
+  }
+  &:focus {
+    background-color: #2196f3;
+  }
 }
 .footer-subscribe {
   margin-top: 72px;
@@ -148,16 +151,17 @@
   cursor: pointer;
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-subscribe-input-box-submit-btn:hover {
-  background: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-.footer-subscribe-input-box-submit-btn:focus {
-  background: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+
+  &:hover {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  &:focus {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
 }
 .footer-subscribe-input-box-submit-btn__text {
   font-weight: 700;

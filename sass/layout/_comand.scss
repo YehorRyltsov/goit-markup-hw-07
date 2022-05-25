@@ -64,14 +64,16 @@
   cursor: pointer;
   transition: background-color 250ms, fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.comand-list__icon__link:hover {
-  fill: #ffffff;
-  background-color: #2196f3;
-}
-.comand-list__icon__link:focus {
-  background-color: #2196f3;
-}
-.comand-list__icon__link:focus svg {
-  fill: #ffffff;
+
+  &:hover {
+    fill: #ffffff;
+    background-color: #2196f3;
+  }
+
+  &:focus {
+    background-color: #2196f3;
+  }
+  &:focus svg {
+    fill: #ffffff;
+  }
 }
